@@ -33,6 +33,7 @@ h1 {
   height: 250px;
   margin-left: auto;
   margin-right: auto;
+  background-size: cover;
 }
 
 #meme-insert {
