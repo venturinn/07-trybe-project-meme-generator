@@ -2,12 +2,12 @@ body {
   background-color: rgb(17 , 41 , 17);
 }
 
-h1{
-   padding-top: 20px;
+h1 {
+  padding-top: 20px;
 }
 
 #quadro-central {
-  background-color: rgb(169, 164, 172);
+  background-color: rgb(142 , 132 , 148);
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -38,7 +38,7 @@ h1{
 #meme-insert {
   border: none;
   color: white;
-  background-color:black;
+  background-color: black;
   border-radius: 10px;
   padding: 7px 20px;
   margin: 10px;
@@ -78,5 +78,40 @@ h1{
   border: black solid 1px;
   margin: 20px;
   margin-top: 10px;
+  background-image: url('imgs/meme1.png');
+  background-size: cover;
+}
+
+#meme-2 {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: black solid 1px;
+  margin: 20px;
+  margin-top: 10px;
+  background-image: url('imgs/meme2.png');
+  background-size: cover;
+}
+
+#meme-3 {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: black solid 1px;
+  margin: 20px;
+  margin-top: 10px;
+  background-image: url('imgs/meme3.png');
+  background-size: cover;
+}
+
+#meme-4 {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: black solid 1px;
+  margin: 20px;
+  margin-top: 10px;
+  background-image: url('imgs/meme4.png');
+  background-size: cover;
 }
 
