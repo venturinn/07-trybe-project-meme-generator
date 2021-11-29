@@ -15,7 +15,7 @@ h1 {
   height: 550px;
   width: 700px;
   border-radius: 30px;
-  text-align: center;
+
 }
 
 #meme-text {
@@ -23,15 +23,18 @@ h1 {
   color: white;
   text-shadow: black 5px 5px 5px;
   position: absolute;
+  z-index: 2;
   word-wrap: break-word;
   top: 80px;
   left: 30px;
   right: 30px;
 }
 
-#image {
-  width: 250px;
-  height: 250px;
+#meme-image {
+  width: 249px;
+  height: 249px;
+  position: absolute;
+  z-index: 1;
 }
 
 #meme-image-container {
@@ -42,7 +45,6 @@ h1 {
   height: 250px;
   margin-left: auto;
   margin-right: auto;
-  background-size: cover;
   position: relative;
 }
 
