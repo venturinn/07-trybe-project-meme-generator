@@ -23,25 +23,35 @@ h1 {
   color: white;
   text-shadow: black 5px 5px 5px;
   position: absolute;
+  word-wrap: break-word;
+  top: 80px;
+  left: 30px;
+  right: 30px;
+}
+
+#image {
+  width: 250px;
+  height: 250px;
 }
 
 #meme-image-container {
+  display: inline-block;
   border: black solid 1px;
   background-color: white;
-  position: relative;
   width: 250px;
   height: 250px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
+  position: relative;
 }
 
 #meme-insert {
   border: none;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   border-radius: 10px;
-  padding: 7px 20px;
+  padding: 5px;
   margin: 10px;
 }
 
@@ -115,4 +125,3 @@ h1 {
   background-image: url('imgs/meme4.png');
   background-size: cover;
 }
-
